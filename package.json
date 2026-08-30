@@ -1,0 +1,38 @@
+{
+  "name": "apex-haxball",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node index.ts",
+    "prof": "ts-node --prof run.ts"
+  },
+  "author": "Jakub Juszko",
+  "license": "MIT",
+  "repository": {},
+  "description": "Haxball Room Script for APEX HAXBALL",
+  "dependencies": {
+    "@koush/wrtc": "^0.5.3",
+    "@types/haxball-headless-browser": "^0.3.0",
+    "haxball.js": "^4.0.1",
+    "ts-node": "^10.9.1"
+  },
+  "engines": {
+    "npm": ">=8.6.0",
+    "node": ">=16.0.0"
+  },
+  "devDependencies": {
+    "prettier": "3.3.3"
+  },
+  "keywords": [
+    "haxball",
+    "script",
+    "room",
+    "server",
+    "real",
+    "soccer",
+    "rs",
+    "APEX HAXBALL"
+  ],
+  "declaration": true
+}
